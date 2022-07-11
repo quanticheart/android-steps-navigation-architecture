@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/form1Fragment">
+
+    <fragment
+        tools:layout="@layout/fragment_form_1"
+        android:id="@+id/form1Fragment"
+        android:name="com.quanticheart.navigation.ui.home.navigation.ui.form1.Form1Fragment"
+        android:label="Form1Fragment" />
+    <fragment
+        tools:layout="@layout/fragment_form_2"
+        android:id="@+id/form2Fragment"
+        android:name="com.quanticheart.navigation.ui.home.navigation.ui.form2.Form2Fragment"
+        android:label="Form2Fragment" />
+    <fragment
+        tools:layout="@layout/fragment_form_3"
+        android:id="@+id/form3Fragment"
+        android:name="com.quanticheart.navigation.ui.home.navigation.ui.form3.Form3Fragment"
+        android:label="Form3Fragment" />
+    <fragment
+        tools:layout="@layout/fragment_form_4"
+        android:id="@+id/form4Fragment"
+        android:name="com.quanticheart.navigation.ui.home.navigation.ui.form4.Form4Fragment"
+        android:label="Form4Fragment" />
+</navigation>
